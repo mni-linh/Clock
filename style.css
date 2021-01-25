@@ -1,0 +1,42 @@
+.time {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    background-image: url(clock.png);
+    background-position: center;
+    background-size: contain;
+}
+
+
+.kim {
+    width: 4px;
+    min-height: 40px;
+    border-radius: 18px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0;
+    transform: translate(-50%, 0) ;
+}
+
+.kim.s{
+    height: 80px ;
+    background: green;
+    transform: rotate(0deg) translate(-50%, 0) ;
+
+
+
+}
+.kim.m{
+    height: 60px;
+    background: yellow;
+    transform: rotate(0deg) translate(-50%, 0) ;
+
+
+}
+
+.kim.h{
+    background: red;
+    transform: rotate(0deg) translate(-50%, 0) ;
+}
