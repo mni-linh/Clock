@@ -3,7 +3,7 @@
     height: 200px;
     border-radius: 50%;
     position: relative;
-    background-image: url(clock.png);
+    background-image: url("./public/images/clock.png");
     background-position: center;
     background-size: contain;
 }
